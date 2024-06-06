@@ -13,19 +13,19 @@ nav ul{
     box-shadow: 0px 0px 4px #121212;
 }
 
-li a {
+nav li a {
     padding: 8px;
     border-radius: 4px;
     text-decoration: none;
     color: white;
 }
 
-li a:hover {
+nav li a:hover {
     background-color: #4f95db;
 }
 
 footer {
-    position:fixed;
+    position:relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -42,7 +42,17 @@ footer {
     color: white;
 }
 
+.productpagecard img {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 20%;
+}
 
+.productpagecard p{
+    display: flex;
+    
+}
 
 
 
